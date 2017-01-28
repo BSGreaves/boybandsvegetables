@@ -7,8 +7,8 @@ var bandElement = document.getElementById("boy-bands");
 var veggieElement = document.getElementById("vegetables");
 
 for (var i = 0; i < bands.length; i++) {
-	bandElement.innerHTML += "<div>" + bands[i] + "</div>" + "<br>";
-	veggieElement.innerHTML += "<div>" + vegetables[i] + "</div>" + "<br>";
+	bandElement.innerHTML += "<div>" + bands[i] + "</div>";
+	veggieElement.innerHTML += "<div>" + vegetables[i] + "</div>";
 }
 
 
